@@ -1,0 +1,96 @@
+/* universal selector(these is the lowest specific selector meaning that all other selectors will override this one) */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  /* margin: 0; */
+}
+
+header {
+  height: 150px;
+  max-width: 100%;
+  background-image: url("./images/kbbq-unsplash.jpg");
+  background-position: contain;
+}
+
+h1 {
+  color: #01bfde;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: lightgreen;
+  margin: 20px;
+  padding: 20px;
+  border: 5px dotted red;
+  border-bottom: 5px solid red;
+}
+
+body {
+  background-color: bisque;
+}
+
+p {
+  color: purple;
+  font-size: 24px;
+  line-height: 2;
+  text-align: justify;
+}
+/* comments here */
+
+h2 {
+  font-weight: 100;
+  font-style: italic;
+}
+
+li {
+  color: rgb(175, 23, 57);
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer p {
+  color: orange;
+}
+
+section h2 {
+  color: green;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: green;
+}
+
+a:active {
+  color: pink;
+}
+
+.box-sizing {
+  background-color: lightgrey;
+}
+
+img {
+  display: block;
+}
+
+.content-box {
+  box-sizing: content-box;
+  width: 300px;
+  background-color: orange;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.border-box {
+  box-sizing: border-box;
+  width: 300px;
+  background-color: orange;
+  border: 1px solid black;
+  padding: 20px;
+}
